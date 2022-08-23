@@ -1,0 +1,57 @@
+@font-face{font-family:"Open Sans";src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2")}
+
+
+.window {
+  position: absolute;
+  z-index: 9;
+}
+
+body {
+  overflow: hidden;
+  background: url("wallpaper.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+input, button, textarea, select, option { outline: none; }
+.chboxContainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  user-select: none;
+}
+.chboxContainer input { display: none; }
+.checkmark {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  padding-left: 5px;
+  padding-right: 4px;
+  border-radius: 7px;
+}
+input[type="range"] { -webkit-appearance: none; }
+input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; }
+.menubar { padding: 5px; cursor: default; }
+.menubarButton, .menubarObject {
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.progressBarInner { height: 100%; text-align: center; padding: 2px; }
+.progressBarOuter { display: inline-block; padding: 0 !important; height: 24px; }
+
+iframe { border: none; }

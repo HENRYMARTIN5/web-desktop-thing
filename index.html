@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="aurora.css">
+  <link rel="stylesheet" href="particles.css">
+</head>
+
+<body>
+  <!-- particles.js container --> <div id="particles-js"></div><script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  
+  <div id="testwindow1" class="window">
+    <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+    <div id="testwindow1header" class="windowheader">Click here to move</div>
+    <h1>Header</h1>
+    <p>Paragraph</p>
+    <label class="chboxContainer">Checkbox
+      <input type="checkbox"></input>
+      <span class="checkmark">&#10003;</span>
+    </label>
+    <label class="chboxContainer">Disabled Checkbox
+      <input type="checkbox" disabled></input>
+      <span class="checkmark" disabled>&#10003;</span>
+    </label>
+    <button>Button</button> <button disabled>Disabled Button</button><br><br>
+    <input type="textbox" placeholder="TextBox"></input> <input type="textbox" disabled
+      placeholder="Disabled TextBox"></input><br><br>
+    <input type="range"></input> Slider<br><br> <input type="range" disabled></input> Disabled Slider<br><br>
+    <textarea placeholder="TextArea"></textarea> <textarea disabled placeholder="Disabled TextArea"></textarea><br><br>
+    <select>
+      <option>Selection Box</option>
+      <option>isn't soup good at css?</option>
+    </select>
+    <select disabled>
+      <option>Disabled Selection Box</option>
+    </select><br><br>
+    <div class="progressBarOuter">
+      <div class="progressBarInner" style="width:69%;">69%</div>
+    </div><br><br>
+  </div>
+
+  <script src="wm.js"></script>
+</body>
+
+</html>
